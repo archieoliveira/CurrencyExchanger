@@ -1,6 +1,5 @@
 @ConverterAPI_HostAddress = http://localhost:5133
 
-GET {{ConverterAPI_HostAddress}}/weatherforecast/
+GET {{ConverterAPI_HostAddress}}/exchangerate-api/
 Accept: application/json
 
-###

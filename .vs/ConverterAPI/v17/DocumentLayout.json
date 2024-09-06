@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Currency exchanger\\ConverterAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F5244F49-BB4D-45AB-9904-D1F03128A6E3}|ConverterAPI.csproj|d:\\currency exchanger\\converterapi\\converterapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{F5244F49-BB4D-45AB-9904-D1F03128A6E3}|ConverterAPI.csproj|solutionrelative:converterapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F5244F49-BB4D-45AB-9904-D1F03128A6E3}|ConverterAPI.csproj|d:\\currency exchanger\\converterapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5244F49-BB4D-45AB-9904-D1F03128A6E3}|ConverterAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,19 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ConverterAPI.http",
+              "DocumentMoniker": "D:\\Currency exchanger\\ConverterAPI\\ConverterAPI.http",
+              "RelativeDocumentMoniker": "ConverterAPI.http",
+              "ToolTip": "D:\\Currency exchanger\\ConverterAPI\\ConverterAPI.http",
+              "RelativeToolTip": "ConverterAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-06T22:38:26.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Currency exchanger\\ConverterAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Currency exchanger\\ConverterAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T23:13:52.479Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Currency exchanger\\ConverterAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",

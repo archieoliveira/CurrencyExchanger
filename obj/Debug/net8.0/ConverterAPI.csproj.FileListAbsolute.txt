@@ -31,3 +31,4 @@ D:\Currency exchanger\ConverterAPI\obj\Debug\net8.0\refint\ConverterAPI.dll
 D:\Currency exchanger\ConverterAPI\obj\Debug\net8.0\ConverterAPI.pdb
 D:\Currency exchanger\ConverterAPI\obj\Debug\net8.0\ConverterAPI.genruntimeconfig.cache
 D:\Currency exchanger\ConverterAPI\obj\Debug\net8.0\ref\ConverterAPI.dll
+D:\Currency exchanger\ConverterAPI\obj\Debug\net8.0\ConverterAPI.sourcelink.json
