@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Currency exchanger\\ConverterAPI\\",
+  "WorkspaceRootPath": "D:\\projetos\\Currency exchanger\\Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5244F49-BB4D-45AB-9904-D1F03128A6E3}|ConverterAPI.csproj|d:\\currency exchanger\\converterapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F5244F49-BB4D-45AB-9904-D1F03128A6E3}|ConverterAPI.csproj|d:\\projetos\\currency exchanger\\solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5244F49-BB4D-45AB-9904-D1F03128A6E3}|ConverterAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5244F49-BB4D-45AB-9904-D1F03128A6E3}|ConverterAPI.csproj|d:\\currency exchanger\\converterapi\\controller\\convertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F5244F49-BB4D-45AB-9904-D1F03128A6E3}|ConverterAPI.csproj|d:\\projetos\\currency exchanger\\solution\\controller\\convertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5244F49-BB4D-45AB-9904-D1F03128A6E3}|ConverterAPI.csproj|solutionrelative:controller\\convertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5244F49-BB4D-45AB-9904-D1F03128A6E3}|ConverterAPI.csproj|d:\\currency exchanger\\converterapi\\converterapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{F5244F49-BB4D-45AB-9904-D1F03128A6E3}|ConverterAPI.csproj|d:\\projetos\\currency exchanger\\solution\\converterapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{F5244F49-BB4D-45AB-9904-D1F03128A6E3}|ConverterAPI.csproj|solutionrelative:converterapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5244F49-BB4D-45AB-9904-D1F03128A6E3}|ConverterAPI.csproj|d:\\currency exchanger\\converterapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F5244F49-BB4D-45AB-9904-D1F03128A6E3}|ConverterAPI.csproj|d:\\projetos\\currency exchanger\\solution\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F5244F49-BB4D-45AB-9904-D1F03128A6E3}|ConverterAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -26,41 +26,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ConverterController.cs",
-              "DocumentMoniker": "D:\\Currency exchanger\\ConverterAPI\\Controller\\ConverterController.cs",
+              "DocumentMoniker": "D:\\projetos\\Currency exchanger\\Solution\\Controller\\ConverterController.cs",
               "RelativeDocumentMoniker": "Controller\\ConverterController.cs",
-              "ToolTip": "D:\\Currency exchanger\\ConverterAPI\\Controller\\ConverterController.cs",
+              "ToolTip": "D:\\projetos\\Currency exchanger\\Solution\\Controller\\ConverterController.cs",
               "RelativeToolTip": "Controller\\ConverterController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T19:58:36.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T19:58:36.429Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ConverterAPI.http",
-              "DocumentMoniker": "D:\\Currency exchanger\\ConverterAPI\\ConverterAPI.http",
+              "DocumentMoniker": "D:\\projetos\\Currency exchanger\\Solution\\ConverterAPI.http",
               "RelativeDocumentMoniker": "ConverterAPI.http",
-              "ToolTip": "D:\\Currency exchanger\\ConverterAPI\\ConverterAPI.http",
+              "ToolTip": "D:\\projetos\\Currency exchanger\\Solution\\ConverterAPI.http",
               "RelativeToolTip": "ConverterAPI.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-09-06T22:38:26.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T22:38:26.152Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Currency exchanger\\ConverterAPI\\Program.cs",
+              "DocumentMoniker": "D:\\projetos\\Currency exchanger\\Solution\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Currency exchanger\\ConverterAPI\\Program.cs",
+              "ToolTip": "D:\\projetos\\Currency exchanger\\Solution\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAACLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -71,9 +73,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Currency exchanger\\ConverterAPI\\appsettings.json",
+              "DocumentMoniker": "D:\\projetos\\Currency exchanger\\Solution\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Currency exchanger\\ConverterAPI\\appsettings.json",
+              "ToolTip": "D:\\projetos\\Currency exchanger\\Solution\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",

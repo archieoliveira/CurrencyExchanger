@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Currency exchanger\\ConverterAPI\\ConverterAPI.csproj": {}
+    "D:\\projetos\\Currency exchanger\\Solution\\ConverterAPI.csproj": {}
   },
   "projects": {
-    "D:\\Currency exchanger\\ConverterAPI\\ConverterAPI.csproj": {
+    "D:\\projetos\\Currency exchanger\\Solution\\ConverterAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Currency exchanger\\ConverterAPI\\ConverterAPI.csproj",
+        "projectUniqueName": "D:\\projetos\\Currency exchanger\\Solution\\ConverterAPI.csproj",
         "projectName": "ConverterAPI",
-        "projectPath": "D:\\Currency exchanger\\ConverterAPI\\ConverterAPI.csproj",
+        "projectPath": "D:\\projetos\\Currency exchanger\\Solution\\ConverterAPI.csproj",
         "packagesPath": "C:\\Users\\artur\\.nuget\\packages\\",
-        "outputPath": "D:\\Currency exchanger\\ConverterAPI\\obj\\",
+        "outputPath": "D:\\projetos\\Currency exchanger\\Solution\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
