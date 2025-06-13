@@ -1,11 +1,11 @@
-Data: 2025-06-13T04:08:40.966Z
+Data: 2025-06-13T04:20:36.992Z
 Status: 200
 URL: http://localhost:5133/converter?from=BRL&to=USD&amount=1
 Headers: {
   "content-type": "application/json; charset=utf-8",
-  "date": "Fri, 13 Jun 2025 04:08:40 GMT",
+  "date": "Fri, 13 Jun 2025 04:20:36 GMT",
   "server": "Kestrel",
   "transfer-encoding": "chunked"
 }
-Expected: 0.18058
+Expected: 0.180567
 Converted: 0.1806
