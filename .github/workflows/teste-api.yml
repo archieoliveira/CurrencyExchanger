@@ -28,19 +28,18 @@ jobs:
         run: |
           npm ci
           npx playwright install --with-deps
+
       - name: Build backend
         run: dotnet build --configuration Release
 
-      - name: Start backend
+      - name: Start backend and run Playwright tests
         run: |
           dotnet run --project CurrencyExchanger/CurrencyExchanger.csproj --urls "http://localhost:5133" &
           for i in {1..15}; do
             nc -z localhost 5133 && break
             sleep 1
           done
-
-      - name: Rodar testes Playwright
-        run: npx playwright test
+          npx playwright test
 
       - name: Configurar Git para commit automático
         if: success()

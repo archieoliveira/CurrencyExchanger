@@ -8,7 +8,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient("CurrencyApi", client =>
 {
     client.BaseAddress = new Uri($"https://v6.exchangerate-api.com/v6/{builder.Configuration["ApiKey"]}/latest/");
-}); // testando commit na pipeline 2
+}); // testando alterar trigger backend yml
 
 var app = builder.Build();
 
