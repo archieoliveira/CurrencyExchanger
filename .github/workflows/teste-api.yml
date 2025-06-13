@@ -34,7 +34,7 @@ jobs:
 
       - name: Start backend and run Playwright tests
         run: |
-          dotnet run --project Solution/ConverterAPI.csproj --urls "http://localhost:5133" &
+          dotnet run --project ConverterAPI.csproj --urls "http://localhost:5133" &
           for i in {1..15}; do
             nc -z localhost 5133 && break
             sleep 1
