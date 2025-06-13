@@ -23,10 +23,14 @@ jobs:
       - name: Build .NET project
         run: dotnet build --configuration Release
 
-      - name: Api setup
+      - name: Start backend and run tests
         run: |
           dotnet run --project CurrencyExchanger/CurrencyExchanger.csproj --urls "http://localhost:5133" &
-        run: sleep 10
+          for i in {1..15}; do
+            nc -z localhost 5133 && break
+            sleep 1
+          done
+          npx playwright test
 
       - name: node.js setup
         uses: actions/setup-node@v4
