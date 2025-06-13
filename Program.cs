@@ -8,8 +8,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient("CurrencyApi", client =>
 {
     client.BaseAddress = new Uri($"https://v6.exchangerate-api.com/v6/{builder.Configuration["ApiKey"]}/latest/");
-}); // corrigindo url do git no yml
-
+}); // alterando token
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
