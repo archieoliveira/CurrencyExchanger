@@ -26,7 +26,7 @@ jobs:
       - name: Api setup
         run: |
           dotnet run --project CurrencyExchanger/CurrencyExchanger.csproj --urls "http://localhost:5133" &
-          sleep 5
+        run: sleep 10
 
       - name: node.js setup
         uses: actions/setup-node@v4
