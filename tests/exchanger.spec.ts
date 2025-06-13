@@ -1,4 +1,6 @@
 import { test, expect } from '@playwright/test';
+import fs from 'fs';
+import path from 'path';
 
 test.describe('Currency API', () => {
   const baseURL = 'http://localhost:5133';
@@ -8,6 +10,12 @@ test.describe('Currency API', () => {
     const from = 'BRL';
     const to = 'USD';
     const amount = 1;
+
+    // Criação do diretório de resultados
+    const resultDir = path.join(__dirname, '../test-results');
+    if (!fs.existsSync(resultDir)) {
+      fs.mkdirSync(resultDir, { recursive: true });
+    }
 
     // Busca cotação na API pública
     const cotacaoResp = await request.get(`https://api.exchangerate.host/convert`, {
@@ -27,17 +35,25 @@ test.describe('Currency API', () => {
       params: { from, to, amount }
     });
 
+    const responseBody = await response.json();
+
+    // SALVAR LOG E RESPOSTA
+    const logContent = [
+      `Data: ${new Date().toISOString()}`,
+      `Status: ${response.status()}`,
+      `URL: ${response.url()}`,
+      `Headers: ${JSON.stringify(response.headers(), null, 2)}`,
+      `Expected: ${expected}`,
+      `Converted: ${responseBody.convertedAmount}`,
+    ].join('\n');
+
+    fs.writeFileSync(path.join(resultDir, 'log.txt'), logContent);
+    fs.writeFileSync(path.join(resultDir, 'response.json'), JSON.stringify(responseBody, null, 2));
+
+    // Asserções
     expect(response.ok()).toBeTruthy();
-    const body = await response.json();
-
-    // Debug: log dos valores
-    console.log('expected:', expected, 'convertedAmount:', body.convertedAmount);
-
-    // Valida se ambos são números
     expect(typeof expected).toBe('number');
-    expect(typeof body.convertedAmount).toBe('number');
-
-    // Valida se o valor convertido está próximo do esperado
-    expect(Math.abs(body.convertedAmount - expected)).toBeLessThan(0.20); // tolerância de 50 centavos
+    expect(typeof responseBody.convertedAmount).toBe('number');
+    expect(Math.abs(responseBody.convertedAmount - expected)).toBeLessThan(0.20); // tolerância
   });
 });

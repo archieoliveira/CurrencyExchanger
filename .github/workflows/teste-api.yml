@@ -1,0 +1,48 @@
+name: Run playwright tests and commit logs
+
+on:
+  push:
+    paths:
+      - '**/*.cs'
+      - '**/*.csproj'
+      - '**/*.sln'
+    branches:
+      - main
+
+jobs:
+  test-api-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Code checkout
+        uses: actions/checkout@v3
+
+      - name: node.js setup
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies and playwright
+        run: |
+          npm ci
+          npx playwright install --with-deps
+
+      - name: Run playwright tests
+        run: npx playwright test
+
+      - name: Configure git to commit logs
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Log and commit test results
+        if: success()
+        run: |
+          if [ -d "test-results" ]; then
+            git add test-results/*
+            git commit -m "ci: salvar logs e resposta após testes"
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
