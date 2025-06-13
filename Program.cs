@@ -8,7 +8,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient("CurrencyApi", client =>
 {
     client.BaseAddress = new Uri($"https://v6.exchangerate-api.com/v6/{builder.Configuration["ApiKey"]}/latest/");
-}); // testando alteraando path csproj colocando solution
+}); // testando alteraando path csproj colocando solution dnv
 
 var app = builder.Build();
 
